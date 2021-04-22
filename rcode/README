@@ -1,1 +1,15 @@
+R code associated with the household air conditioning project. Files 02A_PopulationDataProcessing.R, 03A_bart_package_cross_validation.R, and 03B_bart_package_vimp.R are not executable, but should be downloaded to the same directory as the other code files.
 
+Code should be ran in the following order: 01_Process_InputData_ClimateVariables.R --> 02_Process_InputData_ElectricitySales.R --> 03.1_Model_Creation_bart.R --> 05_SamplingDistributionGeneration.R --> 06.1_Projected_FractionalConsumption.allvars.R --> 07_Miscellaneous.R
+
+Explanations of each file: 
+
+01_Process_InputData_ClimateVariables.R - 
+02_Process_InputData_ElectricitySales.R -
+02A_PopulationDataProcessing.R - 
+03.1_Model_Creation_bart.R - 
+03A_bart_package_cross_validation.R - 
+03B_bart_package_vimp.R - 
+05_SamplingDistributionGeneration.R - 
+06.1_Projected_FractionalConsumption.allvars.R - 
+07_Miscellaneous.R - Plotting and other miscellaneous calcuations.
