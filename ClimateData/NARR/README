@@ -1,0 +1,5 @@
+The data were obtained from the North America Regional Renanalysis (NARR). 
+
+Variables included Discomfort Index (DI), Heat Index (HIA), Humidity Index (HUMIDEX), simfilified wet bulb temperature (sWBGT), air temperature at 2m (tas), dew point temperature (TDEW), and wet bulb temperature (WBA).
+Data are daily average values across the 27 RECS domains (see geographicdomains.xlsx for IDs), which were later aggregated to monthly values. Data were collected from 2005 through 2019. 
+Units: DI = degrees Celcius, HIA = none, HUMIDEX = none, sWBGT = degrees Celcius, tas = Kelvin, TDEW = Kelvin, WBA = degrees Celcius
