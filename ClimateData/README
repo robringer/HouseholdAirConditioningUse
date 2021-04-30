@@ -1,6 +1,1 @@
-Climate data were obtained from the North American Regional Reanalysis (NARR) and the CMIP5 suite of global climate models. 
-
-Variables included Discomfort Index (DI), Heat Index (HIA), Humidity Index (HUMIDEX), simfilified wet bulb temperature (sWBGT), air temperature at 2m (tas), dew point temperature (TDEW), and wet bulb temperature (WBA).
-Units: DI = degrees Celcius, HIA = none, HUMIDEX = none, sWBGT = degrees Celcius, tas = Kelvin, TDEW = Kelvin, WBA = degrees Celcius
-
-Data were obtained for each day from January 2007 through December 2019.
+Climate data were obtained from the North American Regional Reanalysis (NARR) and the CMIP5 suite of global climate models. Each dataset can be found within their respective folders.
