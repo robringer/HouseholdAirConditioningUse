@@ -1,3 +1,5 @@
-This folder contains processed data for monthly total electricity use and monthly air conditioning use. 
+This folder contains processed data for monthly total electricity use (sales_revenue.csv) and monthly air conditioning use, both collected from the US Energy Information Administration.
 
-The data were collected from the Electricity Information Administration. Units are MWh.
+The monthly total electricity use was obtained from the EIA-861M form (formerly EIA-826) for each state. Units are MWh.
+
+The monthly air conditioning use was obtained from
