@@ -16,6 +16,6 @@ Explanations of each file:
 03.1_Model_Creation_bart.R - Build BART model and predict total monthly electricity use.
 03A_bart_package_cross_validation.R - Cross validation function for BART. * This file is called within 03.1_Model_Creation_bart.R *
 03B_bart_package_vimp.R - Variable importance function for BART. * This file is called within 03.1_Model_Creation_bart.R *
-05_SamplingDistributionGeneration.R - 
+05_SamplingDistributionGeneration.R - Generate sampling distribution for air conditioning demand obtained from EIA RECS.
 06.1_Projected_FractionalConsumption.allvars.R - 
 07_Miscellaneous.R - Plotting and other miscellaneous calcuations.
