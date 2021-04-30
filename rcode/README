@@ -6,7 +6,7 @@ Code should be ran in the following order:
 01_Process_InputData_ClimateVariables.R --> 02_Process_InputData_ElectricitySales.R --> 03.1_Model_Creation_bart.R --> 
 05_SamplingDistributionGeneration.R --> 06.1_Projected_FractionalConsumption.allvars.R --> 07_Miscellaneous.R
 
-Code was last run on 29 April 2021 using R v4.0.2.
+Code was last run on 30 April 2021 using R v4.0.2.
 
 Explanations of each file: 
 
