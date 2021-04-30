@@ -1,0 +1,13 @@
+Data obtained from the CMIP5 suite of future climate model simulations, intitially run by the World Climate Research Programme's Working Group on Coupled Modelling.
+The simulation data used here were obtained from the Inter-Sectoral Impact Model Intercomparison Project (ISI-MIP; https://www.isimip.org/).
+
+Variables included Discomfort Index (DI), Heat Index (HIA), Humidity Index (HUMIDEX), simfilified wet bulb temperature (sWBGT), air temperature at 2m (tas), dew point temperature (TDEW), and wet bulb temperature (WBA).
+Data are monthly average values across the 27 RECS domains (see geographicdomains.xlsx for IDs). Data were collected from 1950 through 2099. 
+Units: DI = degrees Celcius, HIA = none, HUMIDEX = none, sWBGT = degrees Celcius, tas = Kelvin, TDEW = Kelvin, WBA = degrees Celcius
+
+Each variable (DI, HIA, HUMIDEX, sWBGT, tas, TDEW, WBA) has its own folder. Within each folder are files (.csv) for each climate model considered in this study: 
+- Geophysical Fluid Dynamics Laboratory - Earth Systems Model (GFDL-ESM2M)
+- Hadley Centre Global Environment Model (HadGEM2-ES)
+- Institut Pierre Simon Laplace Model (IPSL-CM5A-LR)
+- Model for Interdisciplinary Research on Climate - Earth Systems Model (MIROC-ESM-CHEM)
+- Norwegian Earth System Model (NorESM1-M)
