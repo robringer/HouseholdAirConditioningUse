@@ -9,24 +9,8 @@ load("03_ProcessedInputData.RDATA")
 load("03_Results_alldomains.RDATA") 
 load("05.1_GeneratedFractionalDistributions.RDATA")
 
-
-#####========================================================================================
-##### Compute aggregated Percapita consumption Season-Wise i.e., Summer
-#####========================================================================================
-domainlist <- as.numeric(dfusaR$domain)
-
-Sensitivity_S_data <- vector()
-
-for(domaincode in unique(domainlist)){
-  ##### Summer
-  temp <- subset(list_AllResults_R[[domaincode]], justmonths %in% c("06","07","08","09"), select = 3:4)
-  temp <- cbind(temp, domain=c(domaincode))
-  Sensitivity_S_data <- rbind(Sensitivity_S_data , temp)
-}
-Sensitivity_S_data <- aggregate(Sensitivity_S_data[,-3], by=list(Sensitivity_S_data$domain), sum)
-
 #####=================================================================================================
-#### Compute Projected household fractional consumption Season-Wise i.e., Summer, Winter, Intermediate
+#### Compute Projected household fractional consumption for Summer
 #####=================================================================================================
 
 
