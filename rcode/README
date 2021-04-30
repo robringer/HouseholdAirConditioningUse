@@ -12,10 +12,10 @@ Explanations of each file:
 
 01_Process_InputData_ClimateVariables.R - Load climate variables (observations and future) and aggregate to monthly values where necessary.
 02_Process_InputData_ElectricitySales.R - Load electricity use data and go through pre-processing steps (aggregation and de-trending).
-02A_PopulationDataProcessing.R - Load and process population data. *This file will be referenced within 02_Process_InputData_ElectricitySales.R
-03.1_Model_Creation_bart.R - 
-03A_bart_package_cross_validation.R - 
-03B_bart_package_vimp.R - 
+02A_PopulationDataProcessing.R - Load and process population data. * This file is called within 02_Process_InputData_ElectricitySales.R *
+03.1_Model_Creation_bart.R - Build BART model and predict total monthly electricity use.
+03A_bart_package_cross_validation.R - Cross validation function for BART. * This file is called within 03.1_Model_Creation_bart.R *
+03B_bart_package_vimp.R - Variable importance function for BART. * This file is called within 03.1_Model_Creation_bart.R *
 05_SamplingDistributionGeneration.R - 
 06.1_Projected_FractionalConsumption.allvars.R - 
 07_Miscellaneous.R - Plotting and other miscellaneous calcuations.
