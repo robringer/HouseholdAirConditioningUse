@@ -75,7 +75,7 @@ dfusaR <- data.frame(domainlist, domainmonths, domaindata[,2], hist[[1]], hist[[
 colnames(dfusaR) <- c("domain", "month","sales", "DI", "HIA", "HUMIDEX","sWBGT","tas","TDEW","WBA", "Price")
 
 # CMIP5 data - get months and domain labels
-falldoms <- sort(rep(domains, each=1548)) # 129 years * 12 months
+falldoms <- sort(rep(domains, each=1140)) # 95 years * 12 months
 months<- paste0(as.character(allmods[[1]][[1]][,1]), as.character(sprintf("%02d", allmods[[1]][[1]][,2])))
 allmonths <- rep(months, 49)
 ids <- paste0(as.character(sprintf("%02d", falldoms)),'-',allmonths)
@@ -98,6 +98,7 @@ save(list=c("dfusaR", "futdata"), file="03_ProcessedInputData.RDATA")
 ##### Create BART Model
 #####========================================================
 
+setwd(rdatadir)
 load("03_ProcessedInputData.RDATA")
 
 options(java.parameters = "-Xmx1000m")

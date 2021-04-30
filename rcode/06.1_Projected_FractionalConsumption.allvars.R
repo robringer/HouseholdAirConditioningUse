@@ -37,9 +37,8 @@ for(dnum in unique(domain)) {
   actdata[[dnum]] <- computeProjFrac(list_COLFractions, dnum, actcoolingfrac)
 }
 
-obsmonths <- subset(list_AllResults_R[[1]][,1], list_AllResults_R[[1]][,2] %in% c("06","07","08","09"))
-futuremonths <- subset(AllPredData[[1]][,1], AllPredData[[1]][,2] %in% c("06","07","08","09"))
-allmonths <- c(obsmonths, futuremonths)
+allmonths <- subset(AllPredData[[1]][,1], AllPredData[[1]][,2] %in% c("06","07","08","09"))
+
 
 # save final a/c projections
 setwd(rdatadir)

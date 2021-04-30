@@ -3,9 +3,9 @@
 # Last Ran: 30 April 2021
 
 rm(list = ls())
-#datadir <- "" # set directory for CMIP5 climate data
-#datadir2 <- "" # set director for NARR climate data
-#rdatadir <- "" # set directory for rdata files
+datadir <- "" # set directory for CMIP5 climate data
+datadir2 <- "" # set director for NARR climate data
+rdatadir <- "" # set directory for rdata files
 
 ############################# LOAD CMIP5/NARR DATA #############################################
 
@@ -13,7 +13,7 @@ rm(list = ls())
 readFilesIn <- function(dir_path = paste(datadir,'/DI/',sep='')){
   myfun <- function(fl=paste(datadir,'/DI/DI_gfdl-esm2m_1950-2099_CONUS_monthly_avg.csv',sep='')){
     df<-read.csv(fl)
-    df <- df[which(df[,1] > 2019),] # only read in years after 2019
+    df <- df[which(df[,1] > 2004),] # only read in years after 2005
     return(df)
   }
   filelist <- list.files(path = dir_path, pattern = ".*.csv", full.names = TRUE)
