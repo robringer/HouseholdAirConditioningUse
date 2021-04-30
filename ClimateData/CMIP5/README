@@ -1,4 +1,4 @@
-Data obtained from the CMIP5 suite of future climate model simulations, intitially run by the World Climate Research Programme's Working Group on Coupled Modelling.
+Data were obtained from the CMIP5 suite of future climate model simulations, intitially run by the World Climate Research Programme's Working Group on Coupled Modelling.
 The simulation data used here were obtained from the Inter-Sectoral Impact Model Intercomparison Project (ISI-MIP; https://www.isimip.org/).
 
 Variables included Discomfort Index (DI), Heat Index (HIA), Humidity Index (HUMIDEX), simfilified wet bulb temperature (sWBGT), air temperature at 2m (tas), dew point temperature (TDEW), and wet bulb temperature (WBA).
