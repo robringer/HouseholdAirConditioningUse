@@ -6,5 +6,5 @@ Obringer, R., Maia-Silva, D., CR, V., Nateghi, R., Mukherjee, S., McRoberts, D.B
 
 The code was developed in R version 4.0.2 and last ran on 30 April 2021. The code can be found in the 'rcode' folder and the associated Rdata files can be found in the 'rdatafiles' folder. 
 
-Three categories of data were collected: utility data, climate data, and population data. The utility data (folder: 'UtilityData') includes air conditioning use data obtained from the US Energy Information Administration. The climate data (folder: 'ClimateData') were obtained from the North American Regional Reanalysis and the CMIP5 suite of global climate models. The population data (folder: PopulationData) were obtained from the US Census. All data were collected in 2020.
+Three categories of data were collected: utility data, climate data, and population data. The utility data (folder: 'UtilityData') includes air conditioning use data obtained from the US Energy Information Administration. The climate data (folder: 'ClimateData') were obtained from the North American Regional Reanalysis and the CMIP5 suite of global climate models. The population data (folder: 'PopulationData') were obtained from the US Census. All data were collected in 2020.
 
