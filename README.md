@@ -2,7 +2,7 @@
 
 Code and data for an analysis of household air conditioning use across the United States. The results from the analysis are currently under review: 
 
-Obringer, R., Maia-Silva, D., CR, V., Nateghi, R., Mukherjee, S., McRoberts, D.B., and Kumar, R. Anthropogenic warming threatens sustainable household air conditioning consumption across the United States. 
+Obringer, R., Nateghi, R., Maia-Silva, D., Mukherjee, S., CR, V., McRoberts, D.B., and Kumar, R. Anthropogenic warming threatens sustainable household air conditioning consumption across the United States. 
 
 The code was developed in R version 4.0.2 and last ran on 30 April 2021. The code can be found in the 'rcode' folder and the associated Rdata files can be found in the 'rdatafiles' folder. 
 
